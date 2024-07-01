@@ -13,7 +13,7 @@ import ScrollableChat from './ScrollableChat';
 
 //io config
 import io from "socket.io-client";
-const ENDPOINT = "https://ash-chat.onrender.com/";
+const ENDPOINT = "https://ash-chat.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
